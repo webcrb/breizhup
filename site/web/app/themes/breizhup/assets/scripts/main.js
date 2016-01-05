@@ -22,12 +22,30 @@
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
+        
+        //smoothscroll
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+
+        //tootltip
+        $('[data-toggle="tooltip"]').tooltip();
+
       }
     },
     // Home page
     'home': {
       init: function() {
-        // JavaScript to be fired on the home page
+        
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
@@ -75,3 +93,23 @@
   $(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
+
+(function() {
+  'use strict';
+  /*global ScrollMagic:true*/
+  /*eslint no-undef: 2*/
+  /*eslint no-unused-vars: 2*/
+  var controller = new ScrollMagic.Controller();
+  var cta = new ScrollMagic.Scene({
+    triggerElement: '#title',
+    triggerHook: 'onLeave'
+  })
+  .setClassToggle('#primary-navigation', 'fix');
+
+
+  // Add Scene to ScrollMagic Controller
+  controller.addScene(cta);
+
+
+
+})();

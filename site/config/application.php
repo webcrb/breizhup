@@ -1,6 +1,6 @@
 <?php
 $root_dir = dirname(__DIR__);
-$webroot_dir = $root_dir . '/web';
+$webroot_dir = $root_dir . '/www';
 
 /**
  * Use Dotenv to set required environment variables and load .env file in root
@@ -72,3 +72,5 @@ define('DISALLOW_FILE_EDIT', true);
 if (!defined('ABSPATH')) {
   define('ABSPATH', $webroot_dir . '/wp/');
 }
+
+define('WP_DEFAULT_THEME', 'breizhup');

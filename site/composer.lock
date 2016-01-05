@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46853543e79d10bf557df93a4bf2ba31",
+    "hash": "7dbfd12279707cc399b0c1903b579e8b",
+    "content-hash": "094ef0aac05ee59e27b8a0eb132f4e7c",
     "packages": [
         {
             "name": "composer/installers",
@@ -190,6 +191,48 @@
             "time": "2015-06-11 15:15:30"
         },
         {
+            "name": "roots/soil",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roots/soil.git",
+                "reference": "8b534d4b271033d22b8fa0d055c740f7f9c4ca58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roots/soil/zipball/8b534d4b271033d22b8fa0d055c740f7f9c4ca58",
+                "reference": "8b534d4b271033d22b8fa0d055c740f7f9c4ca58",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Walkinshaw",
+                    "email": "scott.walkinshaw@gmail.com",
+                    "homepage": "https://github.com/swalkinshaw"
+                },
+                {
+                    "name": "Ben Word",
+                    "email": "ben@benword.com",
+                    "homepage": "https://github.com/retlehs"
+                }
+            ],
+            "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+            "homepage": "https://roots.io/plugins/soil/",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2015-12-24 19:42:34"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.1.0",
             "source": {
@@ -239,12 +282,34 @@
                 "environment"
             ],
             "time": "2015-10-28 18:53:35"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "4.4.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "roots/soil": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

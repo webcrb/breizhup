@@ -1,0 +1,26 @@
+//
+// Typo Région Bretagne
+
+// Import the fonts
+@font-face {
+  font-family: 'Bretagne';
+  font-weight: normal;
+  src: url('../fonts/bretagnepro-reg.eot?embdur');
+  src: url('../fonts/bretagnepro-reg.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bretagnepro-reg.woff?embdur') format('woff'),
+       url('../fonts/bretagnepro-reg.ttf?embdur') format('truetype'),
+       url('../fonts/bretagnepro-reg.svg#${icon-font-svg-id}') format('svg');
+}
+@font-face {
+font-family: 'Bretagne';
+font-weight: bold;
+  src: url('../fonts/bretagnepro-bold.eot?embdur');
+  src: url('../fonts/bretagnepro-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bretagnepro-bold.woff?embdur') format('woff'),
+       url('../fonts/bretagnepro-bold.ttf?embdur') format('truetype'),
+       url('../fonts/bretagnepro-bold.svg#@{icon-font-svg-id}') format('svg');
+}
+
+.text-bretagne {
+	font-family: 'Bretagne';
+}
