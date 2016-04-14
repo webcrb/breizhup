@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7dbfd12279707cc399b0c1903b579e8b",
-    "content-hash": "094ef0aac05ee59e27b8a0eb132f4e7c",
+    "hash": "00d9c0143b64fc9fc0b496dc462a234e",
+    "content-hash": "59df64deef77418191e16fe7f177cba8",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.22",
+            "version": "v1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046"
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/bd9b14f094c89c8b5804a4e41edeb7853bb85046",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
@@ -103,20 +103,20 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-10-29 23:28:48"
+            "time": "2016-01-27 12:54:22"
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.4",
+            "version": "4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "ad70e5cf518b697eed94f558ca6c88e5cc87e65b"
+                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ad70e5cf518b697eed94f558ca6c88e5cc87e65b",
-                "reference": "ad70e5cf518b697eed94f558ca6c88e5cc87e65b",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fe9320de0793602084c600e22c0c5e0bb601a264",
+                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +140,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-12-08 23:46:14"
+            "time": "2016-02-02 17:16:14"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -196,12 +196,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/soil.git",
-                "reference": "8b534d4b271033d22b8fa0d055c740f7f9c4ca58"
+                "reference": "28d86c613c6f334d8fbfe514cfe01d893d9f5d89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/soil/zipball/8b534d4b271033d22b8fa0d055c740f7f9c4ca58",
-                "reference": "8b534d4b271033d22b8fa0d055c740f7f9c4ca58",
+                "url": "https://api.github.com/repos/roots/soil/zipball/28d86c613c6f334d8fbfe514cfe01d893d9f5d89",
+                "reference": "28d86c613c6f334d8fbfe514cfe01d893d9f5d89",
                 "shasum": ""
             },
             "require": {
@@ -230,32 +230,32 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-12-24 19:42:34"
+            "time": "2016-01-21 02:48:35"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.1.0",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "c10040e0df17d2ee88e9212b50cbe9319e878f59"
+                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/c10040e0df17d2ee88e9212b50cbe9319e878f59",
-                "reference": "c10040e0df17d2ee88e9212b50cbe9319e878f59",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9caf304153dc2288e4970caec6f1f3b3bc205412",
+                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^4.8|^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -281,19 +281,19 @@
                 "env",
                 "environment"
             ],
-            "time": "2015-10-28 18:53:35"
+            "time": "2015-12-29 15:10:30"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "4.4.4",
+            "version": "4.4.5",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "trunk"
+                "reference": "tags/4.4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.5.zip",
                 "reference": null,
                 "shasum": null
             },
